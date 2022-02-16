@@ -1,9 +1,5 @@
-import 'package:equatable/equatable.dart';
-
-class AccountEntity extends Equatable {
+class AccountEntity {
   final String token;
 
-  List get props => [token];
-
-  AccountEntity({ required this.token });
+  AccountEntity(this.token);
 }
